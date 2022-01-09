@@ -22,5 +22,10 @@ contract('notas', accounts => {
          assert.equal(nota_alumno, 9);
      });
 
-     it('2-Function Revision')
+     it('2-Function Revision', async => {
+         //Smart contract desplegado 
+         let instance = await notas.deployed();
+         // llamada la metodo de revisar examenes 
+         const rev = await instance.Revision()
+     })
 });
