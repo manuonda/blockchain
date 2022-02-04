@@ -3,3 +3,8 @@ https://www.youtube.com/watch?v=YJ-D1RMI0T0
 
 Curso 2
 https://www.youtube.com/watch?v=ipwxYa-F1uY
+
+
+
+truffle migrate (para migrar los datos )
+truffle migrate --reset
