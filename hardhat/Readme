@@ -1,0 +1,24 @@
+Create projects 
+1 ) npx create-react-app "web3"
+2 ) nxp hardhat 
+3 ) npm i -D hardhat
+4 ) npm install -D  @openzeppelin/contracts
+
+
+Compile projects 
+----------------
+npx hardhat compile  : Compile projects
+npx hardhat node  : create node accounts 
+npx hardhat run scripts/sample-script.js --network localhost
+
+Se copia el archivo : artifacts/contracts/MinExample.json en scr/MinExampleAbi.json
+
+module.exports = {
+  solidity: "0.8.4",
+  networks:{
+    hardhat:{
+      chainId: 1337
+    }
+
+  }
+};
