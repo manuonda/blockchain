@@ -1,0 +1,369 @@
+{
+	"id": "0ba02658c30383a21c1977f3fa8e49a2",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Variados/Funciones.sol": {
+				"content": "//SPDX-License-Identifier: GLP-3.0\n\npragma solidity > 0.7.0 < 0.9.0;\n\ncontract Funciones {\n\n    constructor() {\n\n    }\n\n    \n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"Variados/Funciones.sol": {
+				"Funciones": {
+					"abi": [
+						{
+							"inputs": [],
+							"stateMutability": "nonpayable",
+							"type": "constructor"
+						}
+					],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"Variados/Funciones.sol\":70:126  contract Funciones {... */\n  mstore(0x40, 0x80)\n    /* \"Variados/Funciones.sol\":96:118  constructor() {... */\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n    /* \"Variados/Funciones.sol\":70:126  contract Funciones {... */\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"Variados/Funciones.sol\":70:126  contract Funciones {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa26469706673582212205970b617908987156aac558919dee09ce2808b975a5227f7cbcc4ff57ba8279464736f6c63430008070033\n}\n",
+						"bytecode": {
+							"functionDebugData": {
+								"@_5": {
+									"entryPoint": null,
+									"id": 5,
+									"parameterSlots": 0,
+									"returnSlots": 0
+								}
+							},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212205970b617908987156aac558919dee09ce2808b975a5227f7cbcc4ff57ba8279464736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 MSIZE PUSH17 0xB617908987156AAC558919DEE09CE2808B SWAP8 GAS MSTORE 0x27 0xF7 0xCB 0xCC 0x4F CREATE2 PUSH28 0xA8279464736F6C634300080700330000000000000000000000000000 ",
+							"sourceMap": "70:56:0:-:0;;;96:22;;;;;;;;;;70:56;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea26469706673582212205970b617908987156aac558919dee09ce2808b975a5227f7cbcc4ff57ba8279464736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 MSIZE PUSH17 0xB617908987156AAC558919DEE09CE2808B SWAP8 GAS MSTORE 0x27 0xF7 0xCB 0xCC 0x4F CREATE2 PUSH28 0xA8279464736F6C634300080700330000000000000000000000000000 ",
+							"sourceMap": "70:56:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 70,
+									"end": 126,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 70,
+									"end": 126,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 70,
+									"end": 126,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 96,
+									"end": 118,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 70,
+									"end": 126,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 70,
+									"end": 126,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 70,
+									"end": 126,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 70,
+									"end": 126,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 70,
+									"end": 126,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 70,
+									"end": 126,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 70,
+									"end": 126,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a26469706673582212205970b617908987156aac558919dee09ce2808b975a5227f7cbcc4ff57ba8279464736f6c63430008070033",
+									".code": [
+										{
+											"begin": 70,
+											"end": 126,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 70,
+											"end": 126,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 70,
+											"end": 126,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 70,
+											"end": 126,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 70,
+											"end": 126,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 70,
+											"end": 126,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Variados/Funciones.sol\":\"Funciones\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"Variados/Funciones.sol\":{\"keccak256\":\"0x7bb3870ccf7eff0137087241568036233ccfabd66d910a9bfe7808107ecb76a3\",\"license\":\"GLP-3.0\",\"urls\":[\"bzz-raw://967e4167a32ca6436e1669f5ed430e5bc29bdd026a7969511efc4b28ada3831a\",\"dweb:/ipfs/QmTcrMj8bgRP9PuSQMWs8XSXnDrknVrb2bRUNr71WPxfa7\"]}},\"version\":1}",
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"Variados/Funciones.sol": {
+				"ast": {
+					"absolutePath": "Variados/Funciones.sol",
+					"exportedSymbols": {
+						"Funciones": [
+							6
+						]
+					},
+					"id": 7,
+					"license": "GLP-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "36:32:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 6,
+							"linearizedBaseContracts": [
+								6
+							],
+							"name": "Funciones",
+							"nameLocation": "79:9:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"body": {
+										"id": 4,
+										"nodeType": "Block",
+										"src": "110:8:0",
+										"statements": []
+									},
+									"id": 5,
+									"implemented": true,
+									"kind": "constructor",
+									"modifiers": [],
+									"name": "",
+									"nameLocation": "-1:-1:-1",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 2,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "107:2:0"
+									},
+									"returnParameters": {
+										"id": 3,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "110:0:0"
+									},
+									"scope": 6,
+									"src": "96:22:0",
+									"stateMutability": "nonpayable",
+									"virtual": false,
+									"visibility": "public"
+								}
+							],
+							"scope": 7,
+							"src": "70:56:0",
+							"usedErrors": []
+						}
+					],
+					"src": "36:90:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

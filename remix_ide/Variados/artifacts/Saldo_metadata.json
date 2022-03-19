@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "estadoDelContrato",
+				"outputs": [
+					{
+						"internalType": "enum Saldo.Estado",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Variados/Saldo.sol": "Saldo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Variados/Saldo.sol": {
+			"keccak256": "0x12f3fa87622386fca7eda60ea698c8dd9b2ea37131aab13d3e8804483cb04f2d",
+			"license": "GLP-3.0",
+			"urls": [
+				"bzz-raw://84240c71cc27167897281688c8a745a00998c3b152c9d88c9fa1201483855da7",
+				"dweb:/ipfs/QmTjrgwrp81nXJSkdNjBnxNtdXsZ1THp8uXEH3LdA2E7nQ"
+			]
+		}
+	},
+	"version": 1
+}

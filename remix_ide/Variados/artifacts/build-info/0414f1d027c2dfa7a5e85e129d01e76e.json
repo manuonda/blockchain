@@ -1,0 +1,70 @@
+{
+	"id": "0414f1d027c2dfa7a5e85e129d01e76e",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Variados/Saldo.sol": {
+				"content": "//SPDX-License-Identifier: GLP\npragma solidity > 0.7.9 <0.9.0;\n\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"Variados/Saldo.sol": {
+				"ast": {
+					"absolutePath": "Variados/Saldo.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "GLP",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">",
+								"0.7",
+								".9",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "31:31:0"
+						}
+					],
+					"src": "31:33:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
