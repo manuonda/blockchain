@@ -48,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Variados/TiposAlmacenamiento.sol": "TiposAlmacenamiento"
+			"Variados/Transferencia.sol": "TiposAlmacenamiento"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -62,7 +62,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Variados/TiposAlmacenamiento.sol": {
+		"Variados/Transferencia.sol": {
 			"keccak256": "0xa02389c940fcbb24b1bee67e663cece42219da8f3854de25589bf8790ba9d8b7",
 			"license": "GLP-3.0",
 			"urls": [

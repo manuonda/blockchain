@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -48,7 +54,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Variados/TiposAlmacenamiento.sol": "Modificadores"
+			"Variados/Modificadores.sol": "Modificadores"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -62,12 +68,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Variados/TiposAlmacenamiento.sol": {
-			"keccak256": "0xa6449eeccbe6c50bee3137f9f4b07116e1320ba3612003f25577a1964c073c62",
+		"Variados/Modificadores.sol": {
+			"keccak256": "0x396dfe249e929642ecb51757a1dfc5883cc26948a2b1ef8ce497dcb8e3b7c229",
 			"license": "GLP-3.0",
 			"urls": [
-				"bzz-raw://b2c617b61dfe5c9823c057119111ebc3f2718f4709295f9d93021ff6cc519583",
-				"dweb:/ipfs/QmWupy74cEii9fxXXwjugra3zdhoqo79zEymfg159aEK52"
+				"bzz-raw://fc6618ef7b56f5957790d06a6320058812f766bb7a5700f0760321341a38fa59",
+				"dweb:/ipfs/Qmc91Sv1tjVXjZ9XNrdM3wLSQm6tZLBMV2Juxi59UueR5S"
 			]
 		}
 	},
