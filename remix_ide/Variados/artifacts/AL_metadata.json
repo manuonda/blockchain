@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numero1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numero2",
+						"type": "uint256"
+					}
+				],
+				"name": "Suma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Variados/Almacenamiento.sol": "AL"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Variados/Almacenamiento.sol": {
+			"keccak256": "0x4e4057d3e6761f35a67a26e87982193f258d55357f8e482da43b0ec4fb4054c7",
+			"license": "GLP-3.0",
+			"urls": [
+				"bzz-raw://648ceb8e6bd3fc3ca7c5ac95ac1f625f22bb0a7d51e515c223c6184589bff9bc",
+				"dweb:/ipfs/QmNUyi6khqxMLKPbdLzQ5qx2JW9d72pw6CDqKHUUvdNu8c"
+			]
+		}
+	},
+	"version": 1
+}

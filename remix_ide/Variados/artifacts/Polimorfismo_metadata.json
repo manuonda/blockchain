@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "resultado",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numero1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numero2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "direccionContrato",
+						"type": "address"
+					}
+				],
+				"name": "sumarDesdeContrato",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Variados/Polimorfismo.sol": "Polimorfismo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Variados/ISuma.sol": {
+			"keccak256": "0x08dc33cc6398087f549442aaa4d18794008f84497f7f0730424b050ccf543b52",
+			"license": "GLP-3.0",
+			"urls": [
+				"bzz-raw://e1713576d3cf5bfbeff1cc8dab1106cfdb4bcc7f6a968c833be917d963afaa55",
+				"dweb:/ipfs/QmQjAe8mg5nsAbDg2LwURczYp4uqBJX8SPm78YAA1Z8NjD"
+			]
+		},
+		"Variados/Polimorfismo.sol": {
+			"keccak256": "0x036bb956293d0e6b2c6f5a7cbea47b2bf9841a6b88d5581425198bfe0a64d658",
+			"license": "GLP-3.0",
+			"urls": [
+				"bzz-raw://c5d31d2c62178fc771064df5b97255087d1674b82fef6005c77ae8556541e3cb",
+				"dweb:/ipfs/QmQQZWo8Q4fCTdfJb1Q38vR3QeeLEVNzcUm7gVdho1EnMK"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "entrada",
+						"type": "uint256"
+					}
+				],
+				"name": "asignarNumero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numero",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Variados/Gas.sol": "Gas"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Variados/Gas.sol": {
+			"keccak256": "0x55db1f2ec0f5e738d623726cd04e947e4cd3a7b2fcbfb95577620cffcf65b788",
+			"license": "GLP-3.0",
+			"urls": [
+				"bzz-raw://15afc86140c5c01fb1dd87a13f60b7f880023a27813bfc076b13ca84a462b1da",
+				"dweb:/ipfs/QmRCA9pNibvzY8amZoE4HgAyNejW19vAP4Gh4QEwKYSVkb"
+			]
+		}
+	},
+	"version": 1
+}

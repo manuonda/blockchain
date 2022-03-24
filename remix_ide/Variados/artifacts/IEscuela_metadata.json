@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum IEscuela.Rol",
+						"name": "_rol",
+						"type": "uint8"
+					}
+				],
+				"name": "newUser",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "enum IEscuela.Rol",
+						"name": "_rol",
+						"type": "uint8"
+					}
+				],
+				"name": "addUser",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_newName",
+						"type": "string"
+					}
+				],
+				"name": "changeUserName",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Variados/Academia.sol": "IEscuela"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Variados/Academia.sol": {
+			"keccak256": "0xc0e30a802e4b5e996133c79fe30212e22e5bfc303b01abe0a9c910370a9217db",
+			"license": "GLP-3.0",
+			"urls": [
+				"bzz-raw://7c5fbb56bebfc52cd3a16b1f77c7af060d2cc36fcfaa846083c313fdd498306d",
+				"dweb:/ipfs/QmYGX7Yg8Vmxz1tKQGTY4Eg83ooQ2cNzQ16m5RG3o3Hk84"
+			]
+		}
+	},
+	"version": 1
+}
